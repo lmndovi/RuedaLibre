@@ -1,0 +1,5 @@
+Red : #80000
+Dark Blue: #00162d
+Light Blue: #03488b
+Yellow: #daa520
+Orange: #f8a008
