@@ -26,7 +26,7 @@ const HomeScreen = () => {
         className="h-full w-full mt-10"
       >
         <SafeAreaView>
-          <View className="flex-row items-center justify-center mt-20 ml-32">
+          <View className="flex-row items-center justify-center mt-16 ml-32">
             <Image
               source={require("../assets/RuedaLibre-logo.png")}
               className="h-20 w-20 mr-32"

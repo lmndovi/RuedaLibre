@@ -20,7 +20,7 @@ const EventsScreen = () => {
         className="h-full w-full"
       >
         <SafeAreaView className="justify-center items-center m-2">
-          <View className="flex-row items-center justify-center mt-20 ml-32">
+          <View className="flex-row items-center justify-center mt-16 ml-32 mb-2">
             <Image
               source={require("../assets/RuedaLibre-logo.png")}
               className="h-20 w-20 mr-32"

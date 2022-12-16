@@ -32,7 +32,11 @@ export default function App() {
         <Drawer.Screen
           name="Payment"
           component={PaymentScreen}
-          // options={{ presentation: "fullScreenModal", headerShown: false }}
+          options={{
+            headerTransparent: true,
+            headerTintColor: "#fff",
+            headerTitleStyle: { color: "#00162d" },
+          }}
         />
       </Drawer.Navigator>
     </NavigationContainer>
