@@ -23,19 +23,19 @@ const ImageCarousel = () => {
         />
         <Image
           source={require("../assets/rueda.jpg")}
-          className="h-64 w-96 rounded-md shadow-md"
+          className="h-72 w-96 rounded-md shadow-md"
         />
         <Image
           source={require("../assets/moyquincy.jpg")}
-          className="h-64 w-96 rounded-md shadow-md"
+          className="h-72 w-96 rounded-md shadow-md"
         />
         <Image
           source={require("../assets/joy.jpg")}
-          className="h-64 w-96 rounded-md shadow-md"
+          className="h-72 w-96 rounded-md shadow-md"
         />
         <Image
           source={require("../assets/nightrueda.jpg")}
-          className="h-64 w-96 rounded-md shadow-md"
+          className="h-72 w-96 rounded-md shadow-md"
         />
       </ScrollView>
     </View>

@@ -1,9 +1,24 @@
-import { View, Text, ImageBackground, SafeAreaView, Image } from "react-native";
+import {
+  View,
+  Text,
+  ImageBackground,
+  SafeAreaView,
+  Image,
+  TouchableOpacity,
+} from "react-native";
 import React from "react";
+import { ArrowLeftIcon } from "react-native-heroicons/outline";
 
-const PaymentScreen = () => {
+const BeginnersScreen = () => {
+  // const navigation = useNavigation();
+
   return (
     <View className="">
+      <View>
+        <TouchableOpacity className="absolute top-14 left-5 p-2 bg-gray-100 rounded-full">
+          <ArrowLeftIcon size={20} color="#00CCBB" />
+        </TouchableOpacity>
+      </View>
       <ImageBackground
         source={require("../assets/classes-bg.png")}
         className="h-full w-full"
@@ -15,15 +30,10 @@ const PaymentScreen = () => {
               className="h-20 w-20 mr-32"
             />
           </View>
-          <View className="items-center justify-center mt-40">
-            <Text className="text-white text-2xl font-extrabold">
-              Stripe Payment Will Be Here
-            </Text>
-          </View>
         </SafeAreaView>
       </ImageBackground>
     </View>
   );
 };
 
-export default PaymentScreen;
+export default BeginnersScreen;

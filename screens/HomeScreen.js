@@ -6,6 +6,7 @@ import {
   ImageBackground,
   TouchableOpacity,
   ScrollView,
+  Linking,
 } from "react-native";
 import React from "react";
 import {
@@ -42,11 +43,21 @@ const HomeScreen = () => {
             />
           </View>
           <View>
-            <TouchableOpacity className="flex-row items-center space-x-1 mt-1 mx-1">
+            <TouchableOpacity
+              className="flex-row items-center space-x-1 mt-1 mx-1"
+              onPress={() =>
+                Linking.openURL(
+                  "https://www.instagram.com/rueda.libre.ldn/?hl=en"
+                )
+              }
+            >
               <CameraIcon color="white" size={18} />
               <Text className="text-white">Rueda.Libre.LDN</Text>
             </TouchableOpacity>
-            <TouchableOpacity className="flex-row items-center space-x-1 mt-2 mx-1">
+            <TouchableOpacity
+              className="flex-row items-center space-x-1 mt-2 mx-1"
+              onPress={() => Linking.openURL("https://ruedalibre.co.uk/")}
+            >
               <GlobeAltIcon color="white" size={18} />
               <Text className="text-white">RuedaLibre.co.uk</Text>
             </TouchableOpacity>

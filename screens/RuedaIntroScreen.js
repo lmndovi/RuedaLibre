@@ -1,7 +1,7 @@
-import { View, Text, ImageBackground, SafeAreaView, Image } from "react-native";
+import { View, Text } from "react-native";
 import React from "react";
 
-const PaymentScreen = () => {
+const RuedaIntroScreen = () => {
   return (
     <View className="">
       <ImageBackground
@@ -15,15 +15,10 @@ const PaymentScreen = () => {
               className="h-20 w-20 mr-32"
             />
           </View>
-          <View className="items-center justify-center mt-40">
-            <Text className="text-white text-2xl font-extrabold">
-              Stripe Payment Will Be Here
-            </Text>
-          </View>
         </SafeAreaView>
       </ImageBackground>
     </View>
   );
 };
 
-export default PaymentScreen;
+export default RuedaIntroScreen;
